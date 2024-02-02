@@ -1,0 +1,431 @@
+/*--------------------------------------------------- Import google font links  --------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap");
+
+/*---------------------------------------- Css reset  --------------------------------*/
+
+* {
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/*---------------------------------------------------- body css -------------------------------------------------*/
+
+body {
+  background: linear-gradient(0.55turn, #cfc5d3, #fff, #cfc5d3);
+}
+
+/*----------------------------------------------------- navbar css --------------------------------------------------*/
+
+#navbar {
+  width: 100%;
+  height: 9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(rgb(207 197 211), #fff); */
+  background: linear-gradient(0.35turn, #cfc5d3, #fff, #cfc5d3);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3vw;
+  list-style: none;
+}
+
+.nav-links ul i {
+  font-size: 1.2rem;
+}
+
+.nav-list:hover a {
+  border-radius: 1vw;
+  background-color: #6c55e0;
+  color: #fff;
+}
+
+.nav-links ul a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000;
+  padding: 0.5vw;
+  /* padding: 0.5rem, 1.2rem !important; */
+}
+
+/*---------------------------------------------------- welcome page css --------------------------------------------------*/
+
+.welcome-page {
+  background-image: url("assets/WelcomePageImage1.jpg");
+  width: 100%;
+  height: 91vh;
+  /* background-size: auto auto; */
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+  /* overflow: hidden; */
+}
+
+.welcome-page-content {
+  position: absolute;
+  top: 17vh;
+  left: 5vw;
+  line-height: 6vw;
+}
+
+.welcome-page-content h1 {
+  font-size: 5.8vw;
+}
+
+.welcome-page-content h2 {
+  font-size: 2.8vw;
+}
+
+.welcome-page-content span {
+  color: #6c55e0;
+}
+
+.welcome-page-btn {
+  background-color: #6c55e0;
+  padding: 0.8vw;
+  border-radius: 1.2vw;
+  /* margin-top: -2vw; */
+  transition: 0.5s;
+}
+
+.welcome-page-btn a i{
+  font-size: 1.3vw;
+  visibility: hidden;
+}
+
+.welcome-page-btn a{
+  font-size: 1.3vw;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+
+}
+
+.welcome-page-btn:hover a i{
+  visibility: visible;
+}
+
+.welcome-page-btn:hover a{
+  color: #fff;
+}
+
+.welcome-page-btn:hover {
+  transform: translateX(0.8vw);
+}
+
+/*----------------------------------------------------- about us page css ---------------------------------------------*/
+
+#first-section {
+  width: 100%;
+  height: 85vh;
+  /* background: linear-gradient(0.55turn, #CFC5D3, #fff, #CFC5D3); */
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 79vh;
+}
+
+.about-heading {
+  height: 6vh;
+}
+
+.about-heading h1 {
+  font-size: 3.3vw;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2.5vw;
+}
+
+.about-content {
+  width: 60vw;
+  padding: 5vw 6vw 5vw 2vw;
+}
+
+.about-content p {
+  font-size: 1.32rem;
+  text-align: justify;
+}
+
+.about-image {
+  width: 40vw;
+  padding: 5vw 2vw 5vw 10vw;
+}
+
+.about-image img {
+  width: 22vw;
+  height: 58vh;
+  border-radius: 3vw;
+}
+
+/*-------------------------------------------------- skill page css ---------------------------------------------*/
+
+#second-section {
+  width: 100%;
+  height: 38vh;
+  /* background: linear-gradient(0.55turn, #CFC5D3, #fff, #CFC5D3); */
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 32vh;
+}
+
+.skill-heading {
+  height: 6vh;
+}
+
+.skill-heading h1 {
+  font-size: 3.3vw;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 1vw;
+}
+
+.skill-left {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4.5vw;
+}
+
+.skill-language i {
+  font-size: 4.5vw;
+  transition: 1s;
+  /* text-align: left; */
+}
+
+.skill-language i:hover {
+  transform: rotateY(360deg);
+  cursor: pointer;
+}
+
+.skill-language span {
+  font-size: 1.3vw;
+  /* padding-bottom: 1vw; */
+  font-weight: 600;
+}
+
+.skill-language img {
+  transition: 1s;
+}
+.skill-language img:hover {
+  transform: rotateY(360deg);
+  cursor: pointer;
+}
+
+/*--------------------------------------------------- project section css ------------------------------------------*/
+
+#third-section {
+  width: 100%;
+  height: 70vh;
+  /* background: linear-gradient(0.55turn, #CFC5D3, #fff, #CFC5D3); */
+}
+
+.project-heading {
+  height: 6vh;
+}
+
+.project-heading h1 {
+  font-size: 3.3vw;
+  font-weight: 700;
+  text-align: center;
+  /* padding-top: 1vw ; */
+}
+
+.project {
+  width: 100%;
+  height: 64vh;
+  padding: 5vw 6vw;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 20vw;
+  height: 50vh;
+  border-radius: 1vw;
+  border: 1px solid #000;
+  padding: 1vw;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.project-card:hover {
+  background-color: #6c55e0;
+  cursor: pointer;
+  transform: translateY(-1.3rem);
+}
+
+.project-image img {
+  width: 18vw;
+  height: 28vh;
+  border-radius: 1vw;
+}
+
+.card-content {
+  padding: 0.7vw;
+}
+
+.card-content h2 {
+  font-size: 1.3vw;
+  /* color: #fff; */
+  font-weight: 800;
+}
+
+.card-content p {
+  font-size: 1vw;
+  /* color: #fff; */
+  font-weight: 500;
+}
+
+.card-content button {
+  width: 17vw;
+  border-radius: 1vw;
+  border: none;
+  background: linear-gradient(0.25turn, #cfc5d3, #fff, #cfc5d3);
+  padding: 0.8vw 1vw;
+  font-size: 1.3vw;
+  font-weight: 600;
+  margin-top: 0.6vw;
+}
+
+.card-content button a{
+  text-decoration: none;
+}
+
+/*-------------------------------------------------- contact us page css --------------------------------------------*/
+
+#forth-section {
+  width: 100%;
+  height: 70vh;
+  /* background: linear-gradient(0.55turn, #CFC5D3, #fff, #CFC5D3); */
+}
+
+.contact-heading {
+  height: 6vh;
+}
+
+.contact-heading h1 {
+  font-size: 3.3vw;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 1vw;
+}
+
+.contact {
+  width: 100%;
+  height: 64vh;
+  padding: 3vw 4vw;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 18vw;
+  width: 50vw;
+}
+
+.contact form label {
+  font-size: 1.4vw;
+  font-weight: 600;
+  padding-top: 1.2vw;
+}
+
+.contact form input {
+  /* width: 50vw; */
+  /* height: 6vh; */
+  padding: 1vw;
+  font-size: 1.3vw;
+  border-radius: 0.7vw;
+}
+
+.contact form input::placeholder {
+  font-size: 1.3vw;
+}
+
+.contact form button {
+  width: 10vw;
+  /* height: 4vh; */
+  font-size: 1.3vw;
+  font-weight: 600;
+  border-radius: 2vw;
+  padding: 1vw;
+  margin-top: 1vw;
+}
+
+.contact form button:hover {
+ background-color: #6c55e0;
+ color: #fff;
+}
+
+/*-------------------------------------- footer section css --------------------------------------------- */
+
+.f-info {
+  width: 100%;
+  height: 20vh;
+  color: #fff;
+  /* padding: 0 10rem; */
+  text-align: center;
+  padding-top: 1.2rem;
+  /* border-top: 0.5px grey solid; */
+  background-color:#6c55e0;
+  position: sticky;
+  bottom: 0;
+}
+
+.f-info-links ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-info-socials a i {
+  font-size: 2vw;
+  margin: 1rem;
+  color: #fff;
+  transition: 0.3s;
+}
+.copyright {
+  font-size: 1.3vw;
+ 
+}
+
+.f-info-socials a i:hover {
+  transform: translateY(-0.6vw);
+ 
+}
+
+.f-info-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2vw;
+  /* padding: 1rem; */
+}
+
+.f-info-links ul li a:hover {
+  text-decoration: underline;
+  /* padding: 1rem; */
+}
