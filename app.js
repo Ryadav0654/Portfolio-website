@@ -1,5 +1,5 @@
 let typed = new Typed('#element', {
-    strings: ['Ravindra Yadav', 'Front-end Developer', 'Coder'],
+    strings: ['Ravindra Yadav', 'Web Developer', 'Coder'],
     typeSpeed: 120,
     backSpeed: 60,
     startDelay: 100,
