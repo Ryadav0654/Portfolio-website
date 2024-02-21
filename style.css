@@ -30,7 +30,7 @@ body {
   background: linear-gradient(0.35turn, #cfc5d3, #fff, #cfc5d3);
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 100;
 }
 
 .nav-links ul {
@@ -78,7 +78,7 @@ body {
   top: 19vh;
   left: 5vw;
   line-height: 6.5vw;
-  z-index: 100;
+  
 }
 
 .welcome-page-content h1 {
