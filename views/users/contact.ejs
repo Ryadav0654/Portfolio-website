@@ -1,0 +1,37 @@
+<% layout("./layouts/boilerplate") %>
+
+<div class="contact-heading">
+  <h1>Contact Me</h1>
+</div>
+<div class="contact">
+  <form action="/contact" method="post" >
+    <label for="name">Name</label>
+    <input type="text" 
+    id="name" 
+    name="name"
+    class="form-control"
+     placeholder="Enter your name" 
+     required/>
+    <label for="number">Mobile Number</label>
+    <input
+      type="text"
+      id="number"
+      name="mobileNumber"
+      class="form-control"
+      placeholder="Enter your whatsapp number"
+      required
+    />
+    <label for="gmail">Gmail</label>
+    <input
+      type="email"
+      id="gmail"
+      name="email"
+      class="form-control"
+      placeholder="Enter your gmail"
+      required
+    />
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+
