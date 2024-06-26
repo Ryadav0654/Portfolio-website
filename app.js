@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
@@ -13,7 +14,7 @@ app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
 app.use("/", ravindraRouter);
-const dbUrl = "mongodb://localhost:27017/Portfolio";
+const dbUrl = process.env.ATLASDB_URL;
 
 main()
   .then(console.log("db connect"))
