@@ -1,8 +1,5 @@
-/*--------------------------------------------------- Import google font links  --------------------------------------*/
 
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap");
-
-/*---------------------------------------- Css reset  --------------------------------*/
 
 * {
   box-sizing: border-box;
@@ -10,8 +7,6 @@
   padding: 0;
   margin: 0;
 }
-
-/*---------------------------------------------------- body css -------------------------------------------------*/
 
 body {
   /* background: linear-gradient(0.55turn, #cfc5d3, #fff, #cfc5d3); */
@@ -71,7 +66,6 @@ body {
 /*---------------------------------------------------- welcome page css --------------------------------------------------*/
 
 .welcome-page {
-  /* background: linear-gradient(rgba(0,0,0, 0.11),rgba(0,0,0, 0.15)), url("/assets/WelcomePageImage.jpg"); */
   width: 100%;
   height: 65vh;
   box-sizing: border-box;
@@ -117,7 +111,6 @@ body {
   border-radius: 0.8vw;
   border: none;
   transition: 0.5s;
-
   box-shadow: 2px 2px 4px #fff;
 }
 
@@ -150,7 +143,7 @@ body {
 #first-section {
   width: 100%;
   height: 85vh;
-  /* background: linear-gradient(0.55turn, #CFC5D3, #fff, #CFC5D3); */
+  
 }
 
 .about {
@@ -168,8 +161,6 @@ body {
   font-size: 3.3vw;
   font-weight: 700;
   text-align: center;
-  /* padding-top: 2.5vw; */
-  /* text-shadow: 3px 6px 8px #414141; */
 }
 
 .about-content {
@@ -182,7 +173,6 @@ body {
 .about-content p {
   font-size: 1.4rem;
   text-align: justify;
-  /* text-shadow: -1px 1px #414141; */
 }
 
 .about-content p::first-letter {
@@ -236,7 +226,6 @@ body {
 #second-section {
   width: 100%;
   height: 70vh;
-  /* background: linear-gradient(0.55turn, #CFC5D3, #fff, #CFC5D3); */
   box-sizing: border-box;
 }
 
@@ -256,7 +245,7 @@ body {
   font-weight: 700;
   text-align: center;
   padding-top: 1vw;
-  /* text-shadow: 3px 6px 8px #414141; */
+
 }
 
 .skill-left {
@@ -284,8 +273,6 @@ body {
 
 .skill-language span {
   font-size: 1.3vw;
-  /* padding-bottom: 1vw; */
-
   font-weight: 600;
 }
 
@@ -301,8 +288,6 @@ body {
 
 #third-section {
   width: 100%;
-  /* height: 70vh; */
-  /* background: linear-gradient(0.55turn, #CFC5D3, #fff, #CFC5D3); */
   box-sizing: border-box;
 }
 
@@ -314,8 +299,6 @@ body {
   font-size: 3.3vw;
   font-weight: 700;
   text-align: center;
-  /* padding-top: 1vw ; */
-  /* text-shadow: 3px 6px 8px #fff; */
 }
 
 .project {
@@ -330,9 +313,7 @@ body {
 
 .project-card {
   width: 20vw;
-  /* height: 51vh; */
   border-radius: 1vw;
-  /* border: 1px solid #000; */
   box-shadow: 2px 1px 8px #fff;
 
   padding: 1vw;
@@ -358,13 +339,11 @@ body {
 
 .card-content h2 {
   font-size: 1.3vw;
-  /* color: #fff; */
   font-weight: 800;
 }
 
 .card-content p {
   font-size: 1vw;
-  /* color: #fff; */
   font-weight: 500;
 }
 
@@ -377,7 +356,6 @@ body {
   font-size: 1.3vw;
   font-weight: 600;
   margin-top: 0.6vw;
-  /* box-shadow: 1px 1px 4px #000; */
 }
 
 .card-content button a {
@@ -389,7 +367,6 @@ body {
 #forth-section {
   width: 100%;
   height: 70vh;
-  /* background: linear-gradient(0.55turn, #CFC5D3, #fff, #CFC5D3); */
   box-sizing: border-box;
 }
 
@@ -402,7 +379,6 @@ body {
   font-weight: 700;
   text-align: center;
   padding-top: 1vw;
-  text-shadow: 3px 6px 8px #414141;
 }
 
 .contact {
@@ -425,8 +401,6 @@ body {
 }
 
 .contact form input {
-  /* width: 50vw; */
-  /* height: 6vh; */
   padding: 1vw;
   font-size: 1.3vw;
   border-radius: 0.7vw;
@@ -438,7 +412,6 @@ body {
 
 .contact form button {
   width: 10vw;
-  /* height: 4vh; */
   font-size: 1.3vw;
   font-weight: 600;
   border-radius: 2vw;
@@ -457,11 +430,6 @@ body {
   text-align: center;
   padding-top: 10vh;
 }
-
-/* .thanks-msg i{
-  font-size: 15vw;
-  color: lightgreen;
-} */
 
 @keyframes shake {
   0% {
@@ -503,11 +471,8 @@ body {
   width: 100%;
   height: 21vh;
   color: #fff;
-  /* padding: 0 10rem; */
   text-align: center;
   padding-top: 1.2rem;
-  /* border-top: 0.5px grey solid; */
-  /* background-color:#6c55e0; */
   background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
   position: static;
   left: 0;
@@ -540,10 +505,8 @@ body {
   color: #fff;
   text-decoration: none;
   font-size: 1.2vw;
-  /* padding: 1rem; */
 }
 
 .f-info-links ul li a:hover {
   text-decoration: underline;
-  /* padding: 1rem; */
 }
