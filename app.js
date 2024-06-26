@@ -6,7 +6,7 @@ const ejsMate = require("ejs-mate");
 const ravindraRouter = require("./routes/ravindra.js");
 const app = express();
 
-const port = 8080;
+const port = process.env.PORT;
 app.use(express.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
