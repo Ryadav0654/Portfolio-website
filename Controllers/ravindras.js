@@ -22,8 +22,8 @@ const contactFormRender = (req, res) => {
 const contact = async (req, res) => {
   try {
 
-    const {name, mobileNumber, email} = req.body;
-    const user = new User({name, mobileNumber, email}); 
+    const {name, mobileNumber, email, message} = req.body;
+    const user = new User({name, mobileNumber, email, message}); 
     await user.save();
     res.render("./users/thanksMsg.ejs", {name});
 

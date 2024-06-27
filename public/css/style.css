@@ -100,20 +100,22 @@ body {
 .wel-page-btn {
   display: flex;
   justify-content: center;
-  margin-top: 2vw;
+  margin-top: 1vw;
 }
 
 .welcome-page-btn {
+  display: inline-block;
   background-color: #6c55e0;
-  padding: 0.6vw;
+  padding: 0.5vw 0.8vw;
   border-radius: 0.8vw;
   border: none;
   transition: 0.5s;
   box-shadow: 2px 2px 4px #fff;
+  margin: 1vw;
 }
 
 .welcome-page-btn a i {
-  font-size: 1.3vw;
+  font-size: 1.1vw;
   visibility: hidden;
 }
 
@@ -409,6 +411,15 @@ body {
   font-size: 1.3vw;
 }
 
+.contact form textarea {
+  padding: 1vw;
+  font-size: 1.3vw;
+  border-radius: 0.7vw;
+}
+.contact form textarea::placeholder {
+  font-size: 1.3vw;
+}
+
 .contact form button {
   width: 10vw;
   font-size: 1.3vw;
@@ -471,7 +482,7 @@ body {
   /* height: 21vh; */
   color: #fff;
   text-align: center;
-  padding-top: 1.2rem;
+  padding: 2rem;
   background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
   position: static;
   left: 0;
