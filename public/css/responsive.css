@@ -1,0 +1,395 @@
+@media screen and (max-width: 580px) {
+    
+
+/*----------------------------------------------------- navbar css --------------------------------------------------*/
+
+#navbar {
+    width: 100%;
+    height: 6vh;
+   
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .nav-links ul {
+    display: none;
+  }
+  
+ 
+
+  
+  /*---------------------------------------------------- welcome page css --------------------------------------------------*/
+  
+  .welcome-page {
+    width: 100%;
+    /* height: 21vh; */
+    box-sizing: border-box;
+    position: relative;
+    opacity: 1;
+    margin-bottom: 5vh;
+  }
+  
+  .welcome-page-content {
+    padding-top: 4vh;
+    line-height: 13.5vw;
+  }
+
+  .wel-page-heading-sec {
+    display: flex;
+    padding-left: 6vw;
+  }
+  
+  .welcome-page-content h1 {
+    font-size: 10vw;
+    /* text-shadow: 3px 6px 8px #6c55e0; */
+  }
+  
+  #element {
+    color: #6c55e0;
+    font-size: 10vw;
+    text-shadow: 3px 6px 8px #fff;
+  }
+  
+  
+  .wel-page-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vw;
+  }
+  
+  .welcome-page-btn {
+    background-color: #6c55e0;
+    padding: 1vw 2.5vw;
+    border-radius: 1vw;
+    border: none;
+    transition: 0.5s;
+    box-shadow: 2px 2px 4px #fff;
+  }
+  
+  .welcome-page-btn a i {
+    font-size: 3vw;
+    visibility: visible;
+  }
+  
+  .welcome-page-btn a {
+    font-size: 3.3vw;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+  }
+
+  
+  /*----------------------------------------------------- about us page css ---------------------------------------------*/
+  
+  #first-section {
+    width: 100%;  
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+  }
+  
+  .about-heading {
+    height: 6vh;
+  }
+  
+  .about-heading h1 {
+    font-size: 6.3vw;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .about-content {
+    width: 100%;
+    /* height: auto; */
+    padding: 6vw 8vw;
+    box-sizing: border-box;
+    line-height: 32px;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  
+  .about-content p::first-letter {
+    font-size: 8.5vw;
+    color: #6c55e0;
+    font-weight: 600;
+  }
+  
+  .resume-btn {
+    display: none;
+  }
+
+  .about-image {
+    width: 100%;
+    padding: 4vw 6vw;
+  }
+  
+  .about-image img {
+    width: 39vh;
+    height: 39vh;
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 6px #fff);
+  }
+  
+  /*-------------------------------------------------- skill page css ---------------------------------------------*/
+  
+  #second-section {
+    width: 100%;
+    /* height: 70vh; */
+    box-sizing: border-box;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 4vw 7vw;
+  }
+  
+  .skill-heading {
+    height: 6vh;
+  }
+  
+  .skill-heading h1 {
+    font-size: 6.3vw;
+    font-weight: 700;
+    text-align: center;
+    /* padding-top: 1vw; */
+  
+  }
+  
+  .skill-left {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7.5vw;
+    
+  }
+  
+  .skill-language {
+    text-align: center;
+  }
+  
+  .skill-language i {
+    font-size: 5.5vh;
+  }
+  
+  .skill-language i:hover {
+    transform: rotateY(360deg);
+    cursor: pointer;
+  }
+  
+  .skill-language span {
+    font-size: 3.3vw;
+    font-weight: 600;
+  }
+  
+  .skill-language img {
+    width: 12vw;
+    height: 5vh;
+  }
+  
+  /*--------------------------------------------------- project section css ------------------------------------------*/
+  
+  #third-section {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .project-heading {
+    height: 6vh;
+  }
+  
+  .project-heading h1 {
+    font-size: 6.3vw;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .project {
+    width: 100%;
+    /* height: 64vh; */
+    padding: 3vw 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  
+  .project-card {
+    width: 100%;
+    border-radius: 4vw;
+    box-shadow: 2px 1px 8px #fff; 
+    padding: 4vw;
+    background-color: transparent;
+    transition: 0.5s;
+    margin-bottom: 4vh;
+  }
+  
+  .project-card:hover {
+    background-color: #6c55e0;
+    cursor: pointer;
+    transform: translateY(-1.3rem);
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: 28vh;
+    border-radius: 4vw;
+  }
+  
+  .card-content {
+    padding: 0.7vw;
+  }
+  
+  .card-content h2 {
+    font-size: 7.3vw;
+    font-weight: 800;
+  }
+  
+  .card-content p {
+    font-size: 4vw;
+    font-weight: 500;
+  }
+  
+  .card-content button {
+    width: 30vw;
+    border-radius: 5vw;
+    border: none;
+    background: #6c55e0;
+    padding: 2vw 1.5vw;
+    font-size: 4vw;
+    font-weight: 600;
+    margin-top: 1.5vw;
+  }
+  
+  .card-content button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /*-------------------------------------------------- contact us page css --------------------------------------------*/
+  
+  #forth-section {
+    width: 100%;
+    /* height: 70vh; */
+    box-sizing: border-box;
+  }
+  
+  .contact-heading {
+    height: 6vh;
+  }
+  
+  .contact-heading h1 {
+    font-size: 6.3vw;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1vw;
+  }
+  
+  .contact {
+    width: 100%;
+    /* height: 64vh; */
+    padding: 0;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10vw;
+    width: 80%;
+  }
+  
+  .contact form label {
+    font-size: 4vw;
+    font-weight: 600;
+    padding-top: 2.2vw;
+  }
+  
+  .contact form input {
+    padding: 2vw 4vw;
+    font-size: 3.3vw;
+    border-radius: 0.7vw;
+  }
+  
+  .contact form input::placeholder {
+    font-size: 3.3vw;
+  }
+  
+  .contact form button {
+    width: 30vw;
+    font-size: 3.3vw;
+    font-weight: 600;
+    border-radius: 5vw;
+    padding: 1.5vw;
+    margin-top: 3vw;
+  }
+  
+  
+  .thanks-msg{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    padding-top: 10vh;
+  }
+
+  
+.f-info {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 4vw 10vw 6vw 10vw;
+    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    position: static;
+    left: 0;
+    bottom: 0;
+    margin-top: 8vw;
+  }
+  
+  .f-info-links ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .f-info-socials a i {
+    font-size: 7vw;
+    /* margin: 1rem; */
+    color: #fff;
+    transition: 0.3s;
+  }
+  .copyright {
+    font-size: 4.3vw;
+  }
+  
+  .f-info-socials a i:hover {
+    transform: translateY(-0.6vw);
+  }
+  
+  .f-info-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.8vw;
+  }
+  
+  .f-info-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  
+}
+  
