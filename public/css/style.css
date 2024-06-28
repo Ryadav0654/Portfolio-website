@@ -70,7 +70,7 @@ body {
   box-sizing: border-box;
   position: relative;
   opacity: 1;
-  margin-bottom: 2.5vw;
+  margin-bottom: 4.5vw;
 }
 
 .welcome-page-content {
@@ -233,21 +233,20 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 3vw 4vw;
+  padding: 4vw;
   /* height: 32vh; */
 }
 
 .skill-heading {
   height: 6vh;
-  margin-bottom: 3vw;
+  margin-bottom: 2vw;
 }
 
 .skill-heading h1 {
   font-size: 3.3vw;
   font-weight: 700;
   text-align: center;
-  padding-top: 1vw;
-
+  /* padding-top: 1vw; */
 }
 
 .skill-left {
@@ -275,7 +274,7 @@ body {
 
 .skill-language span {
   font-size: 1.3vw;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .skill-language img {
